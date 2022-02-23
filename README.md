@@ -1,4 +1,4 @@
-# FCC Aphex Twin Inspired Landing Page
+# FCC - Aphex Twin Inspired Landing Page
 
 Project made for the freeCodeCamp Responsive Web Design course with HTML and SASS.
 
