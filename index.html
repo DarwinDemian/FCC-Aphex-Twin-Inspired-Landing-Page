@@ -1,0 +1,153 @@
+<!-- NOTE: had to use ids instead of classes in a lot of elements because of FCC's requirements to pass the tests -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>FCC Aphex Twin Landing Page</title>
+</head>
+
+<body>
+  <!--       Background Video       -->
+
+<video autoplay muted loop id="video-background">
+  <source src="https://freestockfootagearchive.com/wp-content/uploads/2021/07/Dark-Glitch-Pattern-Creepy-Ornament-Loop-Effect.mp4?_=1" type="video/mp4">
+</video>
+
+<!--          END                 -->
+
+
+
+<!--      Header / Navbar         -->
+
+<header id="header">
+  <nav class="navbar" id="nav-bar">
+    <ul class="nav-container">
+      
+      <img src="https://cdn.freebiesupply.com/logos/large/2x/aphex-twin-logo-png-transparent.png" alt="aphex twin logo" id="header-img"> 
+      
+      <span class="divider"></span>
+      
+      <li><a class="nav-link" href="#about">About</a></li>
+      <li><a class="nav-link" href="#albums">Albums</a></li>
+      <li><a class="nav-link" href="#contact">Contact</a></li>
+      
+    </ul>
+  </nav>
+</header>
+
+<!--           END                -->
+
+
+
+<!--          Main Content        -->
+
+<main>
+  
+<!--          Hero Content        -->
+  <section class="hero">
+    
+    <div class="video">
+      
+      <iframe src="https://www.youtube.com/embed/SqayDnQ2wmw?playlist=SqayDnQ2wmw&loop=1&controls=0&showinfo=0&auto-hide=1&autoplay=1&mute=1" frameborder="0" id="video">          
+      </iframe>
+      
+     <div class="title">
+        <h1>Aphex Twin</h1>
+        <small>Reiventing eletronic music since 1991</small>
+     </div>
+      
+   </div>
+    
+  </section>
+<!--              END                   -->
+  
+  
+<!--          About Section             -->
+  <section class="about" id="about">
+    <figure>
+      
+      <blockquote cite="https://www.theguardian.com/culture/2001/oct/05/artsfeatures3">
+        <p>
+          " I'm just some irritating, lying, ginger kid from Cornwall who should have been locked up in some youth detention centre. I just managed to escape and blag it into music. "
+        </p>
+      </blockquote>
+      
+      <figcaption>
+        Richard D. James
+      </figcaption>
+    
+    </figure>
+  </section>
+<!--              END                    -->
+      
+  
+<!--          Albums Section            -->
+  <hr>
+  <h2>Albums</h2>
+  <hr>
+  <section class="albums-section" id="albums">
+    
+    <div class="album">  
+      <p class="album-title collapse">Collapse EP</p>
+      
+      <iframe src="https://open.spotify.com/embed/album/3SbGxJVC8fHv41RFKCGIl3?theme=0" width="100%" height="180" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+    
+    <div class="album">
+      <p class="album-title drunkqs">Drunkqs</p>
+      
+      <iframe src="https://open.spotify.com/embed/album/1maoQPAmw44bbkNOxKlwsx?theme=0" width="100%" height="180" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+    
+    <div class="album">
+      <p class="album-title syro">Syro</p>
+      
+      <iframe src="https://open.spotify.com/embed/album/6oRuinkJdTge4hpTuClEF8?theme=0" width="100%" height="180" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+    
+    <div class="album">
+      <p class="album-title richard">Richard D. James Album</p>
+      
+      <iframe src="https://open.spotify.com/embed/album/43s2fKRQsOSB6rSrxtAXKK?theme=0" width="100%" height="180" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+        
+    <div class="album">
+      <p class="album-title i-care">...I Care Because You Do</p>
+      
+      <iframe src="https://open.spotify.com/embed/album/0VG7XLJ8gSynEQDVnpHNNU?theme=0" width="100%" height="183" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+    
+    <div class="album">
+      <p class="album-title ambient">Selected Ambient Works</p>
+      
+      <iframe src="https://open.spotify.com/embed/album/17vHPMmoxN5B8cdhCDeMTe?theme=0" width="100%" height="183" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+    
+   
+   </section>
+   <hr>
+  
+<!--             END               -->
+  
+  
+<!--        Contact Section         -->
+  
+  <section class="contact" id="contact">
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <label for="email"> 
+        Get notified when a new show is coming        
+      </label>
+      <input type="email" id="email" name="email" placeholder="Enter your email address">
+      <input type="submit" id="submit" name="submit" value="Submit">
+    </form>
+    
+  </section>
+<!--            END                -->
+
+</main>
+</body>
+</html>
