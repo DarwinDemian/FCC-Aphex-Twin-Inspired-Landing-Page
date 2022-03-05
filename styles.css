@@ -254,8 +254,7 @@ main .contact form input:last-child:hover {
 @media screen and (max-width: 870px) {
   main .about {
     max-width: 100%;
-    margin-top: 10rem;
-    margin-bottom: 10rem;
+    padding: 20vh .3rem;
   }
   main .about figure blockquote {
     font-size: 1.8rem;
