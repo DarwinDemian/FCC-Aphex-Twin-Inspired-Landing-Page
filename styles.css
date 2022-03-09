@@ -20,7 +20,8 @@ body {
 #video-background {
   position: fixed;
   top: 0;
-  left: 0;
+  min-height: 100%;
+  min-width: 100%;
   z-index: -99;
 }
 
@@ -134,8 +135,9 @@ main h2 {
           flex: 100%;
   padding: 0.5rem;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: white;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 main .albums-section {
@@ -149,7 +151,7 @@ main .albums-section {
   margin: 0rem auto;
   padding: 3rem 4rem;
   color: white;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 main .albums-section .album {
@@ -169,7 +171,7 @@ main .albums-section .album .album-title {
 }
 
 main .contact {
-  padding: 3rem 4rem;
+  padding: 3rem 5.8rem;
   background-color: rgba(0, 0, 0, 0.9);
 }
 
@@ -242,6 +244,10 @@ main .contact form input:last-child:hover {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
+  main .contact {
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+  }
   main .contact form label {
     font-size: 1.6rem;
   }
@@ -271,6 +277,7 @@ main .contact form input:last-child:hover {
   }
   main .albums-section .album {
     width: 50%;
+    padding: .5rem;
     margin-top: 0;
   }
 }
@@ -284,7 +291,13 @@ main .contact form input:last-child:hover {
     padding-right: 0.1;
   }
   main .albums-section .album {
-    width: 100%;
+    width: 97%;
+  }
+  main .contact {
+    padding: 3rem 1.5rem;
+  }
+  main .contact form label {
+    font-size: 1.6rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
